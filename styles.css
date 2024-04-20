@@ -7,10 +7,6 @@ body {
     flex: 1 0 auto;
 }
 
-#footer {
-    flex-shrink: 0;
-}
-
 .moveall,
 .removeall {
   border: 1px solid #ccc !important;

@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+#content {
+    margin-top: 20px;
+    flex: 1 0 auto;
+}
+
+#footer {
+    flex-shrink: 0;
+}
+
+.moveall,
+.removeall {
+  border: 1px solid #ccc !important;
+  
+  &:hover {
+    background: #efefef;
+  }
+}
+
+.moveall::after {
+  content: attr(title);
+  
+}
+
+.removeall::after {
+  content: attr(title);
+}
+
+.form-control option {
+    padding: 10px;
+    border-bottom: 1px solid #efefef;
+}
